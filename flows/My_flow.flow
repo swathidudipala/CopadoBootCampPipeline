@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <description>V2.0</description>
+    <interviewLabel>My flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>My flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>My_FLow</name>
+        <label>My_ FLow</label>
+        <locationX>228</locationX>
+        <locationY>90</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>My_First_flow</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;color: rgb(195, 21, 21); font-size: 16px;&quot;&gt;{!$Profile.Id} &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(195, 21, 21); font-size: 16px;&quot;&gt;My First &lt;/span&gt;&lt;b style=&quot;color: rgb(195, 21, 21); font-size: 16px; font-family: tahoma;&quot;&gt;﻿&lt;/b&gt;&lt;span style=&quot;color: rgb(195, 21, 21); font-size: 16px;&quot;&gt;FLOW&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(195, 21, 21); font-size: 16px;&quot;&gt;From;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(195, 21, 21); font-size: 16px;&quot;&gt;{!$User.F﻿irstName}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(195, 21, 21); font-size: 16px;&quot;&gt;{!$User.LastName}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(195, 21, 21); font-size: 16px;&quot;&gt;{!$User.User{!My_First_flow}Name}&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>339</locationX>
+        <locationY>73</locationY>
+        <connector>
+            <targetReference>My_FLow</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

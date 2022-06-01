@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CSJUNC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CSJUNCS</value>
+    </caseValues>
+    <fields>
+        <label><!-- Course1 --></label>
+        <name>Course1__c</name>
+        <relationshipLabel><!-- Students List --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- student1 --></label>
+        <name>student1__c</name>
+        <relationshipLabel><!-- Course List --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

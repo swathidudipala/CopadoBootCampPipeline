@@ -1,0 +1,7 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <ul>
+        <li>coffee</li>
+        <li>tea</li>
+        <li>sugar</li>
+    </ul>
+</aura:component>

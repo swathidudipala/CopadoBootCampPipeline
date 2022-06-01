@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Course student jun</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Course student jun</value>
+    </caseValues>
+    <fields>
+        <label><!-- Course --></label>
+        <name>Course__c</name>
+        <relationshipLabel><!-- students list --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- student --></label>
+        <name>student__c</name>
+        <relationshipLabel><!-- Course List --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

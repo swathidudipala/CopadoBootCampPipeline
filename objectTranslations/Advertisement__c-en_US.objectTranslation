@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Advertisement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Advertisement</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Budget --></label>
+        <name>Actual_Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Advertisement --></label>
+        <name>Advertisement__c</name>
+        <relationshipLabel><!-- ChildAdvertisement --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Estimated Budget spent --></label>
+        <name>Estimated_Budget_spent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expecting Customer Response --></label>
+        <name>Expecting_Customer_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

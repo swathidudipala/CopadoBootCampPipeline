@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Business</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Businesses</value>
+    </caseValues>
+    <fields>
+        <label><!-- All students count --></label>
+        <name>All_students_count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Balance --></label>
+        <name>Balance__c</name>
+    </fields>
+    <fields>
+        <label><!-- India Students Count --></label>
+        <name>India_Students_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Amount --></label>
+        <name>Max_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Min amount --></label>
+        <name>Min_amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modules --></label>
+        <name>Modules__c</name>
+        <picklistValues>
+            <masterLabel>AWS Admin</masterLabel>
+            <translation><!-- AWS Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Admin</masterLabel>
+            <translation><!-- Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation><!-- Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integration</masterLabel>
+            <translation><!-- Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning</masterLabel>
+            <translation><!-- Lightning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAAS Admin</masterLabel>
+            <translation><!-- SAAS Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAAS DEV</masterLabel>
+            <translation><!-- SAAS DEV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT</masterLabel>
+            <translation><!-- UAT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Staff list --></label>
+        <name>Staff_list__c</name>
+        <picklistValues>
+            <masterLabel>Balu</masterLabel>
+            <translation><!-- Balu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gopi</masterLabel>
+            <translation><!-- Gopi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guna</masterLabel>
+            <translation><!-- Guna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>John</masterLabel>
+            <translation><!-- John --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mohan</masterLabel>
+            <translation><!-- Mohan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ram</masterLabel>
+            <translation><!-- Ram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ravi</masterLabel>
+            <translation><!-- Ravi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Fee yet to come --></label>
+        <name>Total_Fee_yet_to_come__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Paid --></label>
+        <name>Total_Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- UK student Count --></label>
+        <name>UK_student_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- USA Students Count --></label>
+        <name>USA_Students_Count_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- stud --></label>
+        <name>stud__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- business country --></label>
+        <name>business_country</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Show the Error message after entering the new record --></errorMessage>
+        <name>One_to_One_training</name>
+    </validationRules>
+</CustomObjectTranslation>

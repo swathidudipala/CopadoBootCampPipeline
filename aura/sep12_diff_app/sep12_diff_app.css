@@ -1,0 +1,46 @@
+.THIS.classone {
+    color:blue;
+    font-size:50px;
+    font-family:Ariel;
+    background:lightpink;
+    text-align:center;
+}
+
+@media only screen and (max-device-width: 414px) {
+   .THIS.classone { 
+   color:red;
+    text-decoration:underline;
+    text-align:center;
+    background:yellow;
+    }
+    .THIS #classid{
+        color:green;
+        border:2px solid orange;
+        margin-top:50px;
+        font-size:50px;
+    }
+} 
+
+@media only screen and (min-device-width:415px) and (max-device-width:768px) {
+    .classone.THIS { 
+    color:gray;
+   background:aliceblue;        
+       
+    }
+      .THIS.classone:hover{
+     text-decoration: underline; 
+}
+}
+
+@media only screen and (min-device-width:769px) and (max-device-width:1024px) {
+     .classone.THIS {
+       color:green;
+        background:orange;
+        text-decoration:underline;
+       
+       
+        } 
+      
+    
+               
+        }

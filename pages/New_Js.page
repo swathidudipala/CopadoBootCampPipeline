@@ -1,0 +1,27 @@
+<apex:page showHeader="false">
+   <head>
+       
+    </head>
+    <body>
+<apex:form >>
+        <div>
+            <input type = "text" value= ""/>
+            <apex:commandButton value="Hit" onclick="myfun('stansys')"/>
+            </div>
+        </apex:form>
+        <script type="text/javascript">
+        debugger;
+        function myfun(str, str1){
+            //alert('hello');
+            var inputelement = document.getElementById('inpone');
+        alert(inputelement.value);
+            }
+            function myfun1(str2, str4){
+                //alert('HI');
+                console.info('str2===>' +str2);
+            }
+        //myfun1();
+        
+        </script>
+    </body>
+</apex:page>

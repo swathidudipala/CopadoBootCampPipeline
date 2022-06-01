@@ -1,0 +1,17 @@
+<apex:page showHeader="false" >
+    <pageblock> this is my first para</pageblock>
+    <p>
+        this is second para
+    </p>
+    <script>
+    var name = 'swathi';
+    debugger;
+        var address = 'hyd';
+        var stdList = [];
+    var colorlist = ['red','blue','green'];
+    console.log('colorlist.name' + colorlist[1]);
+    for(var i = 0; i<colorlist.length; i++){
+        console.log('address' + address);
+        }
+    </script>
+</apex:page>

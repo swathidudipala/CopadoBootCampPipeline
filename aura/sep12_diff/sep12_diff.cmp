@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <head>
+    </head>
+    <h2 class = "classone">Different Devices</h2>
+     <div>
+    <p id = "classid"> Mobile Device</p>
+    </div>
+	
+</aura:component>

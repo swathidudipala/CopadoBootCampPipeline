@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>sta stu junc</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>sta stu juncs</value>
+    </caseValues>
+    <fields>
+        <label><!-- btc --></label>
+        <name>btc__c</name>
+        <relationshipLabel><!-- sta stu juncs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sta --></label>
+        <name>sta__c</name>
+        <relationshipLabel><!-- sta stu juncs --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

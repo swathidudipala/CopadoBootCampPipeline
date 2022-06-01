@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>sss</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ssss</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Faculty --></label>
+        <name>Faculty</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Faculty --></label>
+        <name>Faculty__c</name>
+        <picklistValues>
+            <masterLabel>Akhil</masterLabel>
+            <translation><!-- Akhil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>aasa</masterLabel>
+            <translation><!-- aasa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>janu</masterLabel>
+            <translation><!-- janu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ramu</masterLabel>
+            <translation><!-- ramu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sam</masterLabel>
+            <translation><!-- sam --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mds --></label>
+        <name>Mds__c</name>
+        <picklistValues>
+            <masterLabel>Admin</masterLabel>
+            <translation><!-- Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aura</masterLabel>
+            <translation><!-- Aura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dev</masterLabel>
+            <translation><!-- Dev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning</masterLabel>
+            <translation><!-- Lightning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netezza</masterLabel>
+            <translation><!-- Netezza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiles</masterLabel>
+            <translation><!-- Tiles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toad</masterLabel>
+            <translation><!-- Toad --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

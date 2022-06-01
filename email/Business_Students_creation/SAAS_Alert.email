@@ -1,0 +1,10 @@
+Hi ({!student__c.Primary_Owner__c})
+New student joined for SAAS.
+
+Student Name: {!student__c.Name}
+Batch : {!student__c.Batch__c}
+Business technology: {!student__c.Business__c}
+Student Phone: {!student__c.Business__c}
+
+Thanks,
+Admin.
