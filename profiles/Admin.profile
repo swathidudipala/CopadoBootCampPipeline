@@ -9068,6 +9068,41 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Travel_Approval__c.Department__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Travel_Approval__c.Destination_State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Travel_Approval__c.Out_of_State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Travel_Approval__c.Purpose_of_Trip__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Travel_Approval__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Travel_Approval__c.Trip_End_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Travel_Approval__c.Trip_Start_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>User.Dashboard_Pal__Default_Dashboard__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -15109,6 +15144,9 @@
         <layout>Timing__c-Timing Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Travel_Approval__c-Travel Approval Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>User-User Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -18255,6 +18293,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Timing__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Travel_Approval__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
