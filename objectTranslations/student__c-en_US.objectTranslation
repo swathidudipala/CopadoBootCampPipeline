@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>student</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>students</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>1st Approval status is completed</masterLabel>
+            <translation><!-- 1st Approval status is completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd Approval status is completed</masterLabel>
+            <translation><!-- 2nd Approval status is completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd Approval status is completed</masterLabel>
+            <translation><!-- 3rd Approval status is completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approval Status</masterLabel>
+            <translation><!-- Approval Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finally Approved</masterLabel>
+            <translation><!-- Finally Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finally Rejected</masterLabel>
+            <translation><!-- Finally Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- provide bank details --></help>
+        <label><!-- Bank details --></label>
+        <name>Bank_details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch --></label>
+        <name>Batch__c</name>
+        <relationshipLabel><!-- students --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Batch staff Details --></label>
+        <name>Batch_staff_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business --></label>
+        <name>Business__c</name>
+        <relationshipLabel><!-- students list --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Can we submit for Approval? --></label>
+        <name>Can_we_submit_for_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country Sample --></label>
+        <name>Country_Sample__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+        <picklistValues>
+            <masterLabel>AUS</masterLabel>
+            <translation><!-- AUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IND</masterLabel>
+            <translation><!-- IND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ</masterLabel>
+            <translation><!-- NZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discount --></label>
+        <name>Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dummy --></label>
+        <name>Dummy__c</name>
+    </fields>
+    <fields>
+        <help><!-- Provide all educational data details --></help>
+        <label><!-- Educational Data --></label>
+        <name>Educational_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hobbies --></label>
+        <name>Hobbies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Full Fee paid? --></label>
+        <name>Is_Full_Fee_paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is fee paid? --></label>
+        <name>Is_fee_paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is poor student? --></label>
+        <name>Is_poor_student__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending fees --></label>
+        <name>Pending_fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Owner User --></label>
+        <name>Primary_Owner__c</name>
+        <relationshipLabel><!-- students --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Refer --></label>
+        <name>Refer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Roll call --></label>
+        <name>Roll_call__c</name>
+    </fields>
+    <fields>
+        <label><!-- Student Key number --></label>
+        <name>Student_Key_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Student full details --></label>
+        <name>Student_full_details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total course fees --></label>
+        <name>Total_course_fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- courses --></label>
+        <name>courses__c</name>
+        <picklistValues>
+            <masterLabel>AWS</masterLabel>
+            <translation><!-- AWS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAAS</masterLabel>
+            <translation><!-- SAAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC</masterLabel>
+            <translation><!-- SFDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>vb</masterLabel>
+            <translation><!-- vb --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- current location --></label>
+        <name>current_location__c</name>
+    </fields>
+    <fields>
+        <label><!-- email address --></label>
+        <name>email_address__c</name>
+    </fields>
+    <fields>
+        <label><!-- how much --></label>
+        <name>howmuch__c</name>
+    </fields>
+    <fields>
+        <label><!-- phone no --></label>
+        <name>phone_no__c</name>
+    </fields>
+    <fields>
+        <label><!-- sss --></label>
+        <name>sss__c</name>
+        <relationshipLabel><!-- students --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- state --></label>
+        <name>state__c</name>
+        <picklistValues>
+            <masterLabel>Edison</masterLabel>
+            <translation><!-- Edison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>London</masterLabel>
+            <translation><!-- London --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Melbourne</masterLabel>
+            <translation><!-- Melbourne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sanfrancisco</masterLabel>
+            <translation><!-- Sanfrancisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sydney</masterLabel>
+            <translation><!-- Sydney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wellington</masterLabel>
+            <translation><!-- Wellington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>andhra</masterLabel>
+            <translation><!-- andhra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>chennai</masterLabel>
+            <translation><!-- chennai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>delhi</masterLabel>
+            <translation><!-- delhi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ka</masterLabel>
+            <translation><!-- ka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>maharashtra</masterLabel>
+            <translation><!-- maharashtra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>telangana</masterLabel>
+            <translation><!-- telangana --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- provide details compulasary --></help>
+        <label><!-- student permanant location --></label>
+        <name>student_permanant_location__c</name>
+    </fields>
+    <fields>
+        <help><!-- please enter altenative address --></help>
+        <label><!-- temp address --></label>
+        <name>temp_address__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- AUS recordtype Layout --></label>
+        <name>AUS_recordtype_Layout</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- India Record type Laoyut --></label>
+        <name>India_Record_type_Laoyut</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NZ Student Layout --></label>
+        <name>NZ_Student_Layout</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- UK Recordtype Layout --></label>
+        <name>UK_Recordtype_Layout</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- USA student Record Type --></label>
+        <name>USA_student_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- dummy --></label>
+        <name>dummy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- dummy1 --></label>
+        <name>dummy1</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Show error message that is poor student --></errorMessage>
+        <name>SFDC_poor_student_fees_structure</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- then show the message --></errorMessage>
+        <name>Validate_amount_paid</name>
+    </validationRules>
+</CustomObjectTranslation>

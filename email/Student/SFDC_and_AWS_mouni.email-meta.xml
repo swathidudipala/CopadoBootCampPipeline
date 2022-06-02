@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>SFDC_and_AWS</letterhead>
+    <name>SFDC and AWS mouni</name>
+    <style>formalLetter</style>
+    <subject>SFDC and AWS for Mounika</subject>
+    <textOnly>Hi ({!student__c.Primary_Owner__c})
+New student joined for USA Recordview.
+
+Student Name: {!student__c.Name}
+Batch : {!student__c.Batch__c}
+Business technology: {!student__c.Business__c}
+Student Phone: {!student__c.Business__c}
+
+Thanks,
+Admin.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

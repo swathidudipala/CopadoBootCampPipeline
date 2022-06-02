@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>student1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>students1</value>
+    </caseValues>
+    <fields>
+        <label><!-- After percentage --></label>
+        <name>After_percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- After percentage fee --></label>
+        <name>After_percentage_fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Details --></label>
+        <name>Bank_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coaching1 --></label>
+        <name>Coaching1__c</name>
+        <relationshipLabel><!-- students1 (Coaching1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Coaching --></label>
+        <name>Coaching__c</name>
+        <relationshipLabel><!-- students1 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is poor student? --></label>
+        <name>Is_poor_student__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pending fees --></label>
+        <name>Pending_fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Student Approval --></label>
+        <name>Student_Approval__c</name>
+        <picklistValues>
+            <masterLabel>Finally Approved</masterLabel>
+            <translation><!-- Finally Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finally Rejected</masterLabel>
+            <translation><!-- Finally Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Second Approval</masterLabel>
+            <translation><!-- Second Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Approval</masterLabel>
+            <translation><!-- Third Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>first Approval</masterLabel>
+            <translation><!-- first Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Timing --></label>
+        <name>Timing__c</name>
+        <relationshipLabel><!-- students1 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total fees paid? --></label>
+        <name>Total_fees_paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- auto roll call --></label>
+        <name>auto_roll_call__c</name>
+    </fields>
+    <fields>
+        <label><!-- comments --></label>
+        <name>comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- complete details --></label>
+        <name>complete_details__c</name>
+    </fields>
+    <fields>
+        <label><!-- country --></label>
+        <name>country__c</name>
+        <picklistValues>
+            <masterLabel>IND</masterLabel>
+            <translation><!-- IND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ</masterLabel>
+            <translation><!-- NZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>aus</masterLabel>
+            <translation><!-- aus --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- country entry --></label>
+        <name>country_entry__c</name>
+    </fields>
+    <fields>
+        <label><!-- courses --></label>
+        <name>courses__c</name>
+        <picklistValues>
+            <masterLabel>AWS</masterLabel>
+            <translation><!-- AWS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAAS</masterLabel>
+            <translation><!-- SAAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC</masterLabel>
+            <translation><!-- SFDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>salesforce</masterLabel>
+            <translation><!-- salesforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>vb</masterLabel>
+            <translation><!-- vb --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- current location --></label>
+        <name>current_location__c</name>
+    </fields>
+    <fields>
+        <help><!-- enter compulsary --></help>
+        <label><!-- email address --></label>
+        <name>email_address__c</name>
+    </fields>
+    <fields>
+        <label><!-- fee paid? --></label>
+        <name>fee_paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- full paid1 --></label>
+        <name>full_paid1__c</name>
+    </fields>
+    <fields>
+        <label><!-- how much --></label>
+        <name>how_much__c</name>
+    </fields>
+    <fields>
+        <label><!-- offer percentage --></label>
+        <name>offer_percentage__c</name>
+    </fields>
+    <fields>
+        <help><!-- enter compulsary --></help>
+        <label><!-- phone no --></label>
+        <name>phone_no__c</name>
+    </fields>
+    <fields>
+        <label><!-- refer url --></label>
+        <name>refer_url__c</name>
+    </fields>
+    <fields>
+        <label><!-- state --></label>
+        <name>state__c</name>
+        <picklistValues>
+            <masterLabel>Los angels</masterLabel>
+            <translation><!-- Los angels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Melbourne</masterLabel>
+            <translation><!-- Melbourne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New jersey</masterLabel>
+            <translation><!-- New jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sydney</masterLabel>
+            <translation><!-- Sydney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virginia</masterLabel>
+            <translation><!-- Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington DC</masterLabel>
+            <translation><!-- Washington DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wellington</masterLabel>
+            <translation><!-- Wellington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ap</masterLabel>
+            <translation><!-- ap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>chennai</masterLabel>
+            <translation><!-- chennai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>delhi</masterLabel>
+            <translation><!-- delhi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ka</masterLabel>
+            <translation><!-- ka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>telangana</masterLabel>
+            <translation><!-- telangana --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- stu address --></label>
+        <name>stu_address__c</name>
+    </fields>
+    <fields>
+        <label><!-- student address --></label>
+        <name>student_address__c</name>
+    </fields>
+    <fields>
+        <label><!-- student number --></label>
+        <name>student_number__c</name>
+    </fields>
+    <fields>
+        <help><!-- cumpalsary --></help>
+        <label><!-- temp address --></label>
+        <name>temp_address__c</name>
+    </fields>
+    <fields>
+        <label><!-- time and stu --></label>
+        <name>time_and_stu__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- India Recordtype Layout1 --></label>
+        <name>India_Recordtype_Layout1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- UK Recordtype Layout1 --></label>
+        <name>UK_Recordtype_Layout1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- USA student Record Type1 --></label>
+        <name>USA_student_Record_Type1</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Check the value --></errorMessage>
+        <name>valid_T_and_F</name>
+    </validationRules>
+</CustomObjectTranslation>

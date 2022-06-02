@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Batch</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Batches</value>
+    </caseValues>
+    <fields>
+        <label><!-- Batch time --></label>
+        <name>Batch_time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check dates --></help>
+        <label><!-- Date Count --></label>
+        <name>Date_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Staff Name --></label>
+        <name>Staff_Name__c</name>
+        <picklistValues>
+            <masterLabel>Mohan</masterLabel>
+            <translation><!-- Mohan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ravi</masterLabel>
+            <translation><!-- Ravi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>gopi</masterLabel>
+            <translation><!-- gopi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>guna</masterLabel>
+            <translation><!-- guna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>john</masterLabel>
+            <translation><!-- john --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start date --></label>
+        <name>Start_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business --></label>
+        <name>business__c</name>
+        <relationshipLabel><!-- Batches --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,16 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+	 <ul>
+        <li>coffee</li>
+        <li>tea</li>
+        <li>sugar</li>
+    </ul>
+    <a href= "https://www.w3schools.com/tags/tag_a.asp" target="_top"> W3schools.com </a>
+    <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+    </img>
+    <h2 style= "text-allign:center; font-size:55px"> Center Message</h2>
+    
+    <div>
+        <p> <h2 style= "text-allign:left; font-size:8px"> First Message</h2></p>
+     <p> <h2 style= "text-allign:justify; font-size:16px; font-family:'Arial Black';"> Second Message2</h2></p>   
+     </div>
+</aura:component>

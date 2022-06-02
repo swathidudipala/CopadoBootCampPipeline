@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>swathi</label>
+    <logo>Branded_Console_Folder/ConsoleLogo.png</logo>
+    <tabs>standard-BusinessBrand</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>customer1__c</tabs>
+    <tabs>student__c</tabs>
+    <tabs>student1__c</tabs>
+    <tabs>Business__c</tabs>
+    <tabs>Batch__c</tabs>
+    <tabs>Staff__c</tabs>
+    <tabs>Course__c</tabs>
+    <tabs>Advertisement__c</tabs>
+    <tabs>Coaching__c</tabs>
+    <tabs>Timing__c</tabs>
+    <tabs>Candidate__c</tabs>
+    <tabs>Interviewer__c</tabs>
+    <tabs>Job_Application__c</tabs>
+    <tabs>Position__c</tabs>
+    <tabs>Job_Posting_Site__c</tabs>
+    <tabs>Assignment__c</tabs>
+    <tabs>Course1__c</tabs>
+    <tabs>Waitlist_Member__c</tabs>
+    <tabs>Aura_cmp</tabs>
+    <tabs>Aura_cmp1</tabs>
+    <tabs>sss__c</tabs>
+</CustomApplication>

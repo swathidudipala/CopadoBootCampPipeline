@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+	<div>
+        <h2 class= "headone slds-box">Lightning and design system</h2>
+    <div class="slds-var-m-around_xxx-large slds-box">
+        <span class= "topone slds-border_top slds-border_bottom slds-border_left slds-border_right"> this is first span in Div</span>
+        <span class= "toptwo slds-border_top slds-border_bottom slds-border_left slds-border_right"> this is second Span in Div</span>
+    </div>
+    </div>
+</aura:component>

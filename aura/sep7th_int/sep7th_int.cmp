@@ -1,0 +1,17 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <head>
+        <ltng:require styles="{!$Resource.sampleext2}" />
+    </head>
+    <h2 class="mainhead">class declaration</h2>
+    <div class= "Sampleone">This is element Selector
+    <div class="innerdiv">inner div
+        <div class="subinnerdiv">sub inner div
+            <div class="thirdinnerdiv"> Third inner div</div>
+        <p>check me</p>
+        </div>
+        </div>
+    </div>
+    
+    <p class ="newclass">this is para for new class</p>
+	
+</aura:component>

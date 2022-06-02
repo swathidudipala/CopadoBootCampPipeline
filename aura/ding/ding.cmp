@@ -1,0 +1,12 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <h2 class="mainhead"> DING</h2>
+    <div id="idone" class="maindiv"> Main Div Class</div>
+    <div id="idtwo" class="subdiv">Sub Div Class
+        <span class="s1">this is span</span>
+    <p class="para">This is Para</p>
+        </div>
+   
+    <p class="para" id="idone">This is Para</p>
+    
+	
+</aura:component>

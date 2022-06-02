@@ -1,0 +1,10 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+<div id ="first" class= "fir1">
+    <h2 class="example" id="headone">Example styles</h2>
+    <p class="example2" id ="headtwo">Example paragrah2</p>
+    </div>	
+    <div id ="seconddiv">
+    <p class="example3" id ="headthree">Example Paragraph3</p>
+        <span> Example Paragraph3</span>
+    </div>
+</aura:component>

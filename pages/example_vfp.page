@@ -1,0 +1,28 @@
+<apex:page showHeader="false">
+    <head>
+        
+    </head>
+    <body>
+        <div> this is my div element
+            </div>       
+   <script>
+        var ine;
+        var trainername= 'moh';
+        var dat =  new Date();
+        var isstarted= true;
+        var accData = {};
+        
+        var stData= {'name': 'raj', 'phone':'568998', 'address' :'hyd', 'email':'123@gmail.com'};
+        accData.name = 'swathi';
+        accData.phone = '7894632';
+        var colorlist= ['red','green','blue'];
+        console.log('colorlist==>'  + colorlist[0]);
+        console.log('my output is==>' + ine);
+        console.log('stdate===>' + stData.name);
+        console.log('stDate phone===>' + stData.phone  + '====stDate Address===>' + stData.address);
+        console.log('stDate email===>' +stData['email']);
+        console.log('accdata name===>' + accData['name'] +'===accdata phone===>' + accData['phone']);
+        
+        </script>
+    </body>
+</apex:page>

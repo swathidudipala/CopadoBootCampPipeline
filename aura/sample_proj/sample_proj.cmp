@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+     <h5 class= "contactus"> Contact Us</h5>  
+    <h2 class= "headone">Swat Technologies</h2>       
+        
+</aura:component>

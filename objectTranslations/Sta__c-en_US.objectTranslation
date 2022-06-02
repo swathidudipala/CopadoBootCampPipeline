@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sta</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>stas</value>
+    </caseValues>
+    <fields>
+        <label><!-- faculty name --></label>
+        <name>faculty_name__c</name>
+        <picklistValues>
+            <masterLabel>giri</masterLabel>
+            <translation><!-- giri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mano</masterLabel>
+            <translation><!-- mano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>raju</masterLabel>
+            <translation><!-- raju --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sta --></label>
+        <name>sta__c</name>
+        <relationshipLabel><!-- stas list --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
