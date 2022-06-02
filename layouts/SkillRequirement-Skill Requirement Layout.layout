@@ -22,10 +22,6 @@
                 <behavior>Edit</behavior>
                 <field>SkillLevel</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>CurrencyIsoCode</field>
-            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>

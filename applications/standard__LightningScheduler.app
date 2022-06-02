@@ -4,7 +4,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-    <label>Lightning Scheduler Setup</label>
+    <label>Salesforce Scheduler Setup</label>
     <navType>Standard</navType>
     <tabs>standard-LightningSchedulerSetupAssistant</tabs>
     <tabs>standard-ServiceTerritory</tabs>
@@ -13,27 +13,5 @@
     <tabs>standard-WorkType</tabs>
     <tabs>standard-OperatingHours</tabs>
     <tabs>standard-ServiceAppointment</tabs>
-    <tabs>customer1__c</tabs>
-    <tabs>student__c</tabs>
-    <tabs>student1__c</tabs>
-    <tabs>Business__c</tabs>
-    <tabs>Batch__c</tabs>
-    <tabs>Staff__c</tabs>
-    <tabs>Course__c</tabs>
-    <tabs>Advertisement__c</tabs>
-    <tabs>Coaching__c</tabs>
-    <tabs>Timing__c</tabs>
-    <tabs>Job_Posting_Site__c</tabs>
-    <tabs>Assignment__c</tabs>
-    <tabs>Course1__c</tabs>
-    <tabs>sss__c</tabs>
-    <tabs>btc__c</tabs>
-    <tabs>new_finance__c</tabs>
-    <tabs>Sta__c</tabs>
-    <tabs>sta_stu_junc__c</tabs>
-    <tabs>dummy__c</tabs>
-    <tabs>assign__c</tabs>
-    <tabs>Offer__c</tabs>
-    <tabs>Waitlist_Member__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

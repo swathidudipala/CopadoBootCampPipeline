@@ -129,34 +129,12 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>CurrencyIsoCode</fullName>
-        <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsOutOfDate</fullName>
-    </fields>
-    <fields>
         <fullName>IsPublished</fullName>
         <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>IsPublishedInPublicKb</fullName>
         <trackHistory>true</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ParentId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>ParentIssue</fullName>
-    </fields>
-    <fields>
-        <fullName>ParentNote</fullName>
-    </fields>
-    <fields>
-        <fullName>SolutionLanguage</fullName>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>SolutionName</fullName>
@@ -195,7 +173,6 @@
         <customTabListAdditionalFields>SOLUTION.ISSUE</customTabListAdditionalFields>
         <customTabListAdditionalFields>SOLUTION.SOLUTION_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>SOLUTION.STATUS</customTabListAdditionalFields>
-        <customTabListAdditionalFields>SOLUTION.PARENT_ISSUE</customTabListAdditionalFields>
         <customTabListAdditionalFields>CORE.USERS.ALIAS</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>SOLUTION.ISSUE</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>SOLUTION.SOLUTION_NUMBER</lookupDialogsAdditionalFields>
@@ -207,6 +184,5 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>SOLUTION.TIMES_USED</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>SOLUTION.LAST_UPDATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>SOLUTION.PARENT_ISSUE</searchResultsAdditionalFields>
     </searchLayouts>
 </CustomObject>
