@@ -1,0 +1,35 @@
+<apex:page showHeader="false">
+    <div>
+        first para 1
+    </div>
+    <script>
+    var batchlist = [
+        {
+    'batchname' : 'first',
+        'batchcount' : '20',
+            'batchcourse' : 'sfdc'
+            },
+            { 
+            'batchname' : 'second',
+            'batchcount' : '30',
+            'batchcourse' : 'java'
+            },
+            {
+            'batchname': 'third',
+            'batchcount' : '40',
+            'batchcourse' : 'vb'
+            }
+    ],   
+        //console.log('batchlist===>' + batchlist.batchname[i]);
+        //var myBatch;
+            for (var i=0; i<batchlist.length; i++){
+            if(batchlist[i].batchname=='2ndbatch'){
+            myBatch = batchlist[i];
+                //  }else if(true){
+                // }else(){
+            }
+            console.log ('myBatch===>' + myBatch);
+           } 
+    </script>
+    
+</apex:page>

@@ -1,0 +1,13 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+ <lightning:recordEditForm recordId="{!v.recordId}" objectApiName="Account" onload= "{!c.onLoadAct}" onsubmit= "{!c.onSubmitAct}">
+     <div class="slds-box"/>
+    <lightning:inputField fieldName="Name" />
+     <lightning:inputField fieldName="Id" />
+     <lightning:inputField fieldName="Email__c" />
+     <lightning:inputField fieldName="Type" />
+     <lightning:inputField fieldName="BillingStreet" />
+     <lightning:inputField fieldName="BillingCity" />
+     <lightning:inputField fieldName="BillingState" />
+     <lightning:button variant="brand" type="submit" name="update" class="slds-m-left_x-small"/>
+     </lightning:recordEditForm>
+</aura:component>

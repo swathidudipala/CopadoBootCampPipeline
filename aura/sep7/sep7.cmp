@@ -1,0 +1,7 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+	<h2 class = "mainclass">Sample Account!</h2>
+    <div style= "secondclass">
+    <p style ="secondone">first para!</p>
+     </div>    
+    
+</aura:component>

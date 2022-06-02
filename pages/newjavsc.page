@@ -1,0 +1,27 @@
+<apex:page >
+    <head>
+        
+    </head>
+    <body>
+        <div>
+           first div element
+        </div>
+        <script>
+        var stddata = {
+            'name': 'raju',
+            'stdnum': '001',
+            'address': 'HYD'
+            };
+        
+        var ine = 'tina';
+        var ja = 10;
+        var dat = new date();
+        console.log ('stddata==>' + stddata.name + '===stdnum'+stddata.stdnum);
+        console.log ('dat==>' + dat);
+        stdata.website ='https://stddata.com';
+        stdata.email = 'swaatdata@gmail.com';
+        console.log('website' +stddata.website + 'email' +stddata.email);
+        
+        </script>     
+    </body>
+</apex:page>

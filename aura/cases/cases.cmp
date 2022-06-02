@@ -1,0 +1,16 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <div>
+        <h2 style ="font-size:30px; text-align:center;">Swath Technologies</h2>
+        <div>
+        <div style= "color:red; background:blue;">customerame:swaathi Rollnumber:007</div>
+    </div>
+
+	<div style= "color:red; background: blue;"> DIVA</div>
+<div style="color:green;background:gray;">
+    <ul style="dispaly:flex; list-style:none;">
+        <li style ="margin-right:5px">java</li>
+        <li style ="margin-right:5px">SFDC</li>
+        <li style ="margin-right:5px">SAAS</li>
+    </ul></div>
+    </div>
+</aura:component>

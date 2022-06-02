@@ -1,0 +1,12 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+ <head> Sample Project</head>     
+ <h2 class ="mainone">
+     Project Title</h2>
+     <body>  
+<p> this is para</p>
+   
+
+       
+   
+</body> 	
+</aura:component>

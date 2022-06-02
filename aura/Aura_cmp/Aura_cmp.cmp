@@ -1,0 +1,29 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+this is aura sample component
+    
+   <div class = "slds-button-group tophead" role="group">
+       <button class ="slds-button slds-button_brand"> Save</button> 
+       <button class ="slds-button slds-button_brand"> Update</button> 
+       <button class ="slds-button slds-button_brand"> Delete</button> 
+       <lightning:button label= "success" variant = "success"/>
+    </div>
+    <lightning:buttonIcon iconName="utility:add" alternativeText="Access" title="bc" />
+    <br/>
+    <span class = ".slds-badge"> Top</span> 
+   
+    <lightning:badge label="Starred Accounts" iconName="custom:custom11" iconPosition="end"/>
+
+    <br/>
+    <lightning:icon iconName= "utility:settings" class="slds-m-right_x-small" />
+    <lightning:icon iconName= "standard:account" class="slds-m-right_x-small" />
+    <lightning:icon iconName= "custom:custom1" />
+    <lightning:icon iconName= "action:add_contact" />
+    <lightning:icon iconName= "utility:add" />
+     <lightning:buttonIcon iconName="utility:down"  size="large" alternativeText="View More" title="View More" />
+     <lightning:buttonIcon iconName="utility:settings"  alternativeText="Settings" title="Settings" />
+<br></br>
+    <lightning:button label="Refresh" />
+        <lightning:button label="Edit" />
+        <lightning:button label="Save" />
+     <lightning:icon iconName="action:approval" alternativeText="Approved" title="Approved" />
+    </aura:component>

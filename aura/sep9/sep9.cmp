@@ -1,0 +1,15 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <head>
+        <h2 style ="background:pink; height:50px; text-align:center; width:500px;">
+            Enter Site Title</h2>
+       
+    </head>
+    
+     <body>  
+	<div class="divone" Id="idone">
+   
+
+          </div>
+   
+</body> 
+</aura:component>

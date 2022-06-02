@@ -1,0 +1,18 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+	<div class ="main container">
+    <div class ="slds-grid slds-m-top_large slds-gutters" style= "color:red">
+           <div class="slds-col slds-size_4-of-12 slds-medium-size_2-of-12 slds-large-size_1-of-12"> body1</div>
+        <div class="slds-col slds-size_4-of-12 slds-medium-size_4-of-12 slds-large-size_7-of-12"> body2</div>
+       <div class="slds-col slds-size_4-of-12 slds-medium-size_6-of-12 slds-large-size_4-of-12"> body3</div> 
+       
+
+    </div>
+    </div>
+    <div class ="slds-grid slds-m-top_large" style= "color:red;border:solid 3px green;">
+        <div  style="border:solid 5px grey;display:inline-block;;width:33%"> body1</div>
+        <div  style="border:solid 5px grey;display:inline-block;;width:33%"> body2</div>
+        <div  style="border:solid 5px grey;display:inline-block;;width:33%"> body3</div>
+    </div>
+   
+    
+</aura:component>

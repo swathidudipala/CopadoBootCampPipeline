@@ -1,0 +1,14 @@
+<apex:page >
+    <head>
+     Sample Page   
+    </head>
+    <div>
+     <apex:pageblock > English script</apex:pageblock>
+        
+      
+  
+    <body>
+      contains  
+    </body>
+        </div>
+</apex:page>

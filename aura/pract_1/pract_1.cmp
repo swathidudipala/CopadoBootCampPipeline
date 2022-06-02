@@ -1,0 +1,11 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+	<h2 style = "font-size:50px;text-allign:center;paddle:50px;">Sample Account</h2>
+    <div style= "background:green;height:300px;color:white;width:300px;overflow:scroll;position:absolute;">
+    <p style ="font-size:16px;text-allign:center;paddle:50px;font-family:verdana;">first para</p>
+    <p style ="font-size:30px;">Second Para</p>
+        <p style ="font-size:25px;text-allign:justify;paddle:50px;">Third ParaThird Para</p>
+        <h2 style ="color:red;font-size:50px;position:absolute;font-weight:900;bottom:0px;">this is imp</h2>
+        <h3 style ="color :white; font-size:50px;"> heart</h3>
+    </div>
+    <div style= "background:blue;height:100px;width:200px;color:white;padding:50px;overflow:scroll;font-size:16px;float:right">Right side div</div>
+</aura:component>

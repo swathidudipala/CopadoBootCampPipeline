@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>new finance</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>new finances</value>
+    </caseValues>
+    <fields>
+        <label><!-- btc --></label>
+        <name>btc__c</name>
+        <relationshipLabel><!-- new finances list --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- sss --></label>
+        <name>sss__c</name>
+        <relationshipLabel><!-- new finances --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <description><!-- USA --></description>
+        <label><!-- USA New finance --></label>
+        <name>USA_New_finance</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

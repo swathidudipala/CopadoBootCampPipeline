@@ -1,0 +1,6 @@
+HI {!student__c.Primary_Owner__c},
+
+
+{!student__c.Name}
+{!student__c.Batch_staff_Details__c}
+{!student__c.courses__c}

@@ -1,0 +1,19 @@
+.THIS.inurl {
+    width:150px;
+}
+
+.THIS.inpass{
+    width:150px;
+}
+.THIS.indate{
+    width:150px;
+}
+.THIS.text{
+    width:150px;
+}
+.THIS.exp{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}

@@ -1,0 +1,22 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" 
+                access="global"
+                controller ="Withsharingexample"
+                >
+    
+    <aura:handler name="init" value= "{!this}" action = "{!c.doInit}" />
+    <aura:attribute name="accList" type = "Account[]" default ="[]"/>
+<table>
+    <tr>
+    <th>Account Name</th>
+     <th>Owner</th>   
+        <th>Id</th>
+    </tr>    
+    <aura:iteration items="{!v.acclist}" var="item">
+    <tr>
+        <td>{!item.Name}</td>
+    <td>{!item.Owner.Name}</td>
+    <td>{!item.Id}</td>
+    </tr>
+        </aura:iteration>
+    </table>
+</aura:component>

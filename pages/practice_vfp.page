@@ -1,0 +1,24 @@
+<apex:page showHeader="false"  >
+    <head>
+        one para
+    </head>
+    <body>
+        <script type = 'textscript'>
+        var mastername='mohan';
+        var howmany = 6;
+        var isreal = true;
+        var whenstarted = new Date();
+        debugger;
+        var couselist= ['admin', 'css','dev','integration','html','js','aura'];
+        var tranerbackgroundde = {
+            name:'mohan',
+            address:'hyderabad',
+            country:'india'
+            };
+        console.log('masername===>' + mastername);
+        console.log('howmany===>' + mastername);
+        console.log('couselist===>' + couselist.length[]);
+        </script>
+
+    </body>
+</apex:page>

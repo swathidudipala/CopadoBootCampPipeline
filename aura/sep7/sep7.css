@@ -1,0 +1,19 @@
+.THIS.mainclass {
+    backgorund:red;
+    text-color: white;
+    height:300px;
+    width:250px;
+}
+
+.THIS .secondclass{
+ backgorund :blue;
+    text-color:yellow;
+    height:50px;
+    width:50px;   
+}
+.THIS .secondone{
+    backgorund:green;
+    text-color:orange;
+    height:30px;
+    width:50px; 
+    }

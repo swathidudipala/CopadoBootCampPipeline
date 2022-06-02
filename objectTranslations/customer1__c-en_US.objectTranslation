@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>customer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>customers</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>Language__c</name>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hindi</masterLabel>
+            <translation><!-- Hindi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kannada</masterLabel>
+            <translation><!-- Kannada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation><!-- Spanish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tamil</masterLabel>
+            <translation><!-- Tamil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telugu</masterLabel>
+            <translation><!-- Telugu --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- branches --></label>
+        <name>branches__c</name>
+        <picklistValues>
+            <masterLabel>amazon</masterLabel>
+            <translation><!-- amazon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>flipcart</masterLabel>
+            <translation><!-- flipcart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>macys</masterLabel>
+            <translation><!-- macys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>olx</masterLabel>
+            <translation><!-- olx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>target</masterLabel>
+            <translation><!-- target --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>walmart</masterLabel>
+            <translation><!-- walmart --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- country --></label>
+        <name>country__c</name>
+        <picklistValues>
+            <masterLabel>AUS</masterLabel>
+            <translation><!-- AUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN</masterLabel>
+            <translation><!-- CAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IND</masterLabel>
+            <translation><!-- IND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- internet activate --></label>
+        <name>internet_activate__c</name>
+    </fields>
+    <fields>
+        <label><!-- package --></label>
+        <name>package__c</name>
+    </fields>
+    <fields>
+        <label><!-- phone no --></label>
+        <name>phone_no__c</name>
+    </fields>
+    <fields>
+        <label><!-- Review Status --></label>
+        <name>review_status__c</name>
+    </fields>
+    <fields>
+        <label><!-- state --></label>
+        <name>state__c</name>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation><!-- California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation><!-- DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edison</masterLabel>
+            <translation><!-- Edison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Melbourne</masterLabel>
+            <translation><!-- Melbourne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ontario</masterLabel>
+            <translation><!-- Ontario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sydney</masterLabel>
+            <translation><!-- Sydney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ka</masterLabel>
+            <translation><!-- ka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>telangana</masterLabel>
+            <translation><!-- telangana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tn</masterLabel>
+            <translation><!-- tn --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

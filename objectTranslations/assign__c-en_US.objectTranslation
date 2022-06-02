@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>assign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>assigns</value>
+    </caseValues>
+    <fields>
+        <label><!-- Which btc --></label>
+        <name>Which_btc__c</name>
+        <relationshipLabel><!-- assigns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Which_sss --></label>
+        <name>Which_sss__c</name>
+        <relationshipLabel><!-- assigns --></relationshipLabel>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>
