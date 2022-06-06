@@ -145,22 +145,6 @@
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <fields>
-        <fullName>Valid_From__c</fullName>
-        <externalId>false</externalId>
-        <label>Valid From</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>Valid_to__c</fullName>
-        <externalId>false</externalId>
-        <label>Valid to</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>DateTime</type>
-    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>PRICEBOOK2.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>PRICEBOOK2.DESCRIPTION</customTabListAdditionalFields>

@@ -155,12 +155,6 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>Compact_Layout</fullName>
-        <fields>Name</fields>
-        <fields>Phone_number__c</fields>
-        <label>Compact Layout</label>
-    </compactLayouts>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
@@ -179,9 +173,6 @@
     <fields>
         <fullName>CampaignMemberRecordTypeId</fullName>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>CurrencyIsoCode</fullName>
     </fields>
     <fields>
         <fullName>Description</fullName>
@@ -267,13 +258,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Phone_number__c</fullName>
-        <externalId>false</externalId>
-        <label>Phone number</label>
-        <required>true</required>
-        <type>Phone</type>
-    </fields>
-    <fields>
         <fullName>StartDate</fullName>
     </fields>
     <fields>
@@ -286,13 +270,6 @@
     </fields>
     <listViews>
         <fullName>AllActiveCampaigns</fullName>
-        <columns>CAMPAIGN.NAME</columns>
-        <columns>CAMPAIGN.STATUS</columns>
-        <columns>CAMPAIGN.START_DATE</columns>
-        <columns>CAMPAIGN.END_DATE</columns>
-        <columns>CAMPAIGN.BUDGETED_COST</columns>
-        <columns>CAMPAIGN.ACTUAL_COST</columns>
-        <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>CAMPAIGN.ACTIVE</field>
@@ -311,25 +288,12 @@
         </filters>
         <label>My Active Campaigns</label>
     </listViews>
-    <listViews>
-        <fullName>sam</fullName>
-        <columns>CAMPAIGN.NAME</columns>
-        <columns>CAMPAIGN.START_DATE</columns>
-        <columns>CAMPAIGN.END_DATE</columns>
-        <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
-        <columns>CAMPAIGN.STATUS</columns>
-        <columns>CAMPAIGN.BUDGETED_COST</columns>
-        <columns>CAMPAIGN.ACTUAL_COST</columns>
-        <filterScope>Mine</filterScope>
-        <label>sam</label>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CAMPAIGN.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>CAMPAIGN.STATUS</customTabListAdditionalFields>
         <customTabListAdditionalFields>CAMPAIGN.START_DATE</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>CAMPAIGN.NAME</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CAMPAIGN.NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Phone_number__c</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>CAMPAIGN.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>PARENT_NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CAMPAIGN.CAMPAIGN_TYPE</searchResultsAdditionalFields>
@@ -340,25 +304,6 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>FullAccess</sharingModel>
-    <webLinks>
-        <fullName>New_Account</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>New Account</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>https://swathi1-dev-ed.lightning.force.com/lightning/o/Account/new?count=3&amp;nooverride=1&amp;useRecordTypeCheck=1&amp;navigationLocation=LIST_VIEW&amp;uid=164188205501878785&amp;backgroundContext=%2Flightning%2Fo%2FAccount%2Flist%3FfilterName%3DRecent</url>
-    </webLinks>
     <webLinks>
         <fullName>ViewCampaignInfluenceReport</fullName>
         <availability>online</availability>
