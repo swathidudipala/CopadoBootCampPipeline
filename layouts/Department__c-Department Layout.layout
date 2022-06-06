@@ -59,7 +59,7 @@
         <fields>Trip_Start_Date__c</fields>
         <fields>Trip_End_Date__c</fields>
         <fields>Destination_State__c</fields>
-        <relatedList>Travel_Approval__c.Department__c</relatedList>
+        <relatedList>Travel_Approval__c.Expense_Item__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
