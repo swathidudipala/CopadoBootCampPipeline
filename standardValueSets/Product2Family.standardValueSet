@@ -6,14 +6,4 @@
         <default>false</default>
         <label>None</label>
     </standardValue>
-    <standardValue>
-        <fullName>Software Courses</fullName>
-        <default>false</default>
-        <label>Software Courses</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Language  Courses</fullName>
-        <default>false</default>
-        <label>Language  Courses</label>
-    </standardValue>
 </StandardValueSet>

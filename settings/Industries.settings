@@ -6,5 +6,6 @@
     <enableEventWriteOrgPref>false</enableEventWriteOrgPref>
     <enableMultiResourceOrgPref>false</enableMultiResourceOrgPref>
     <enableOverbookingOrgPref>false</enableOverbookingOrgPref>
-    <enableTopicTimeSlot>false</enableTopicTimeSlot>
+    <enableTopicOrTemplate>false</enableTopicOrTemplate>
+    <enableTopicTimeSlot>true</enableTopicTimeSlot>
 </IndustriesSettings>
