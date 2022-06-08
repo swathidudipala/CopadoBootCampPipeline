@@ -10,90 +10,8 @@
     <tabs>standard-CmsChannel</tabs>
     <tabs>standard-CmsWorkspaces</tabs>
     <tabs>standard-CmsExperiences</tabs>
-    <tabs>customer1__c</tabs>
-    <tabs>student__c</tabs>
-    <tabs>student1__c</tabs>
-    <tabs>Business__c</tabs>
-    <tabs>Batch__c</tabs>
-    <tabs>Staff__c</tabs>
-    <tabs>Course__c</tabs>
-    <tabs>Advertisement__c</tabs>
-    <tabs>Coaching__c</tabs>
-    <tabs>Timing__c</tabs>
-    <tabs>Job_Posting_Site__c</tabs>
-    <tabs>Assignment__c</tabs>
-    <tabs>Course1__c</tabs>
-    <tabs>sss__c</tabs>
-    <tabs>btc__c</tabs>
-    <tabs>new_finance__c</tabs>
-    <tabs>Sta__c</tabs>
-    <tabs>sta_stu_junc__c</tabs>
-    <tabs>dummy__c</tabs>
-    <tabs>assign__c</tabs>
-    <tabs>Offer__c</tabs>
-    <tabs>Waitlist_Member__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
-        <mappings>
-            <tab>Advertisement__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Assignment__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Batch__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Business__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Coaching__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Course1__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Course__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Job_Posting_Site__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Offer__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Sta__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Staff__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Timing__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Waitlist_Member__c</tab>
-        </mappings>
-        <mappings>
-            <tab>assign__c</tab>
-        </mappings>
-        <mappings>
-            <tab>btc__c</tab>
-        </mappings>
-        <mappings>
-            <tab>customer1__c</tab>
-        </mappings>
-        <mappings>
-            <tab>dummy__c</tab>
-        </mappings>
-        <mappings>
-            <tab>new_finance__c</tab>
-        </mappings>
-        <mappings>
-            <tab>sss__c</tab>
-        </mappings>
-        <mappings>
-            <tab>sta_stu_junc__c</tab>
-        </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>
         </mappings>
@@ -105,12 +23,6 @@
         </mappings>
         <mappings>
             <tab>standard-CmsWorkspaces</tab>
-        </mappings>
-        <mappings>
-            <tab>student1__c</tab>
-        </mappings>
-        <mappings>
-            <tab>student__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>
