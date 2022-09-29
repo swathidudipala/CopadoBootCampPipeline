@@ -15,6 +15,20 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -114,116 +128,76 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ReadWrite</externalSharingModel>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>AccountId</fullName>
+        <fullName>AppointmentTopicId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>AuditEmail</fullName>
+        <fullName>AppointmentTopicType</fullName>
     </fields>
     <fields>
-        <fullName>AutoCardType</fullName>
+        <fullName>BookingEndDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>CardBin</fullName>
+        <fullName>BookingStartDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>CardCategory</fullName>
+        <fullName>InvitationIdentifier</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>CardHolderFirstName</fullName>
+        <fullName>InvitationUrl</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>CardHolderLastName</fullName>
+        <fullName>IsActive</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>CardHolderName</fullName>
-    </fields>
-    <fields>
-        <fullName>CardLastFour</fullName>
-    </fields>
-    <fields>
-        <fullName>CardType</fullName>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Comments</fullName>
-    </fields>
-    <fields>
-        <fullName>CompanyName</fullName>
-    </fields>
-    <fields>
-        <fullName>DisplayCardNumber</fullName>
-    </fields>
-    <fields>
-        <fullName>Email</fullName>
-    </fields>
-    <fields>
-        <fullName>ExpiryMonth</fullName>
-    </fields>
-    <fields>
-        <fullName>ExpiryYear</fullName>
-    </fields>
-    <fields>
-        <fullName>GatewayDate</fullName>
-    </fields>
-    <fields>
-        <fullName>GatewayResultCode</fullName>
-    </fields>
-    <fields>
-        <fullName>GatewayResultCodeDescription</fullName>
-    </fields>
-    <fields>
-        <fullName>GatewayToken</fullName>
-    </fields>
-    <fields>
-        <fullName>GatewayTokenDetails</fullName>
-    </fields>
-    <fields>
-        <fullName>GatewayTokenEncrypted</fullName>
-    </fields>
-    <fields>
-        <fullName>InputCardNumber</fullName>
-    </fields>
-    <fields>
-        <fullName>IpAddress</fullName>
-    </fields>
-    <fields>
-        <fullName>IsAutoPayEnabled</fullName>
-    </fields>
-    <fields>
-        <fullName>MacAddress</fullName>
-    </fields>
-    <fields>
-        <fullName>NickName</fullName>
-    </fields>
-    <fields>
-        <fullName>PaymentGatewayId</fullName>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Phone</fullName>
+        <fullName>ServiceTerritoryId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>ProcessingMode</fullName>
-    </fields>
-    <fields>
-        <fullName>SfResultCode</fullName>
-    </fields>
-    <fields>
-        <fullName>StartMonth</fullName>
-    </fields>
-    <fields>
-        <fullName>StartYear</fullName>
-    </fields>
-    <fields>
-        <fullName>Status</fullName>
+        <fullName>UrlExpiryDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <listViews>
-        <fullName>CardPaymentMethod</fullName>
+        <fullName>All_AppointmentInvitations</fullName>
         <filterScope>Everything</filterScope>
-        <label>All</label>
+        <label>All Appointment Invitations</label>
     </listViews>
-    <sharingModel>ReadWrite</sharingModel>
+    <listViews>
+        <fullName>My_AppointmentInvitations</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Appointment Invitations</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>BookingStartDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BookingEndDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>
+        <customTabListAdditionalFields>UrlExpiryDate</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>BookingStartDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>BookingEndDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>IsActive</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>UrlExpiryDate</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>BookingStartDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>BookingEndDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IsActive</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>UrlExpiryDate</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>BookingStartDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BookingEndDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IsActive</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>UrlExpiryDate</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
